@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="5.4.21" />
+    <PackageReference Include="COM3D2.GameLibs" Version="3.41.0-r.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>F:\COM3D2Test 2.5\COM3D2_5\COM3D2x64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>F:\COM3D2Test 2.5\COM3D2_5\COM3D2x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
